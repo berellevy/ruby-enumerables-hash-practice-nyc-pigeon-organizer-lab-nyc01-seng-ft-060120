@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
             organized_pigeon_hash[name_string][k_category_sym] = []
         end
 
-        organized_pigeon_hash[name_string][k_category_sym] << k_detail_sym
+        organized_pigeon_hash[name_string][k_category_sym] << k_detail_sym.to_s
 
 
       end
